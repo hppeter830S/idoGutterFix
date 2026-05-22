@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IDO GUTTER FIX – Experts en gouttières sur mesure</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <!-- ═══════════════════════════════ NAVBAR ═══════════════════════════════ -->
+    <nav id="navbar">
+      <a href="index.html" class="nav-logo" aria-label="IDO GUTTER FIX">
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            column-gap: 10px;
+          "
+        >
+          <img
+            src="images/idoGutterFixLogo.png"
+            alt="IDO GUTTER FIX Logo"
+            onerror="
+              this.style.display = 'none';
+              this.nextElementSibling.style.display = 'block';
+            "
+          />
+          <span>IDO <em>GUTTER</em> FIX</span>
+        </div>
+      </a>
+
+      <div class="nav-spacer"></div>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Accueil</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="realisations.html">Réalisations</a></li>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <a
+        href="https://wa.me/25767222772"
+        target="_blank"
+        rel="noopener"
+        class="btn-wa nav-wa-desktop"
+        aria-label="WhatsApp"
+      >
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+          />
+        </svg>
+        WhatsApp
+      </a>
+    </nav>
+
+    <!-- ═══════════════════════════════ HERO ═════════════════════════════════ -->
+    <section class="hero">
+      <div class="hero-text">
+        <div class="hero-badge">
+          <span></span> Service professionnel certifié
+        </div>
+        <h1 class="hero-title">
+          Experts en fabrication et installation de
+          <em>gouttières sur mesure</em>
+        </h1>
+        <p class="hero-sub">
+          Des solutions durables, esthétiques et efficaces pour protéger votre
+          toiture et votre maison.
+        </p>
+        <div class="hero-ctas">
+          <a href="tel:67222772" class="btn-primary">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.9 10.8 19.79 19.79 0 01.87 2.18 2 2 0 012.86 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"
+              />
+            </svg>
+            Appeler au 67 222 772
+          </a>
+          <a href="realisations.html" class="btn-outline">
+            Voir nos réalisations →
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-img">
+        <img src="images/idoGutterFixImg29.jpg" alt="HERO IMAGES">
+        <img src="images/idoGutterFixImg31.jpg" alt="HERO IMAGE">
+        <div class="hero-img-badge">
+          <small>Depuis 2020</small>
+          +150 chantiers réalisés
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════ SLIDER ═══════════════════════════════ -->
+    <section class="slider-section" aria-label="Nos services">
+      <div class="slider-track" id="sliderTrack">
+        <!-- Slide 1 -->
+        <div style="background-image: url(images/idoGutterFixImg21.jpg);" class="slide slide-1">
+           <div class="slide-content">
+            <span class="slide-tag">01 / Fabrication</span>
+            <h2 class="slide-title">Fabrication sur mesure</h2>
+            <p class="slide-text">
+              Nous concevons des gouttières adaptées à chaque type de toiture.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div style="background-image: url(images/idoGutterFixImg27.jpg);background-position: center;background-size: cover;" class="slide slide-2">
+          <div class="slide-content">
+            <span class="slide-tag">02 / Installation</span>
+            <h2 class="slide-title">Installation professionnelle</h2>
+            <p class="slide-text">
+              Une pose précise et durable réalisée par des experts.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div style="background-image: url(images/idoGutterFixImg29.jpg);background-position: center;background-size: cover;" class="slide slide-3">
+          <div class="slide-content">
+            <span class="slide-tag">03 / Réparation</span>
+            <h2 class="slide-title">Réparation efficace</h2>
+            <p class="slide-text">
+              Nous réparons vos gouttières pour une protection optimale.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="slider-arrow slider-prev"
+        id="sliderPrev"
+        aria-label="Précédent"
+      >
+        <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6" /></svg>
+      </button>
+      <button
+        class="slider-arrow slider-next"
+        id="sliderNext"
+        aria-label="Suivant"
+      >
+        <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6" /></svg>
+      </button>
+
+      <div class="slider-dots" id="sliderDots">
+        <div class="dot active" data-idx="0"></div>
+        <div class="dot" data-idx="1"></div>
+        <div class="dot" data-idx="2"></div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════ SERVICES ═════════════════════════════ -->
+    <section class="services-strip" id="services">
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"
+            />
+          </svg>
+        </div>
+        <h3>Fabrication sur mesure</h3>
+        <p>
+          Chaque gouttière est conçue et découpée selon les dimensions exactes
+          de votre toiture pour une intégration parfaite et une durabilité
+          maximale.
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+            <polyline points="9 22 9 12 15 12 15 22" />
+          </svg>
+        </div>
+        <h3>Installation professionnelle</h3>
+        <p>
+          Nos techniciens qualifiés assurent une pose précise, avec des
+          fixations solides et des joints étanches pour une protection longue
+          durée de votre maison.
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+            />
+          </svg>
+        </div>
+        <h3>Réparation efficace</h3>
+        <p>
+          Fuite, saignée, affaissement ou corrosion — nous diagnostiquons et
+          réparons rapidement tout problème pour rétablir le bon écoulement des
+          eaux.
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════ WHY US ════════════════════════════════ -->
+    <section class="why-section" id="apropos">
+      <div class="why-text">
+        <h2>Pourquoi choisir <span>IDO GUTTER FIX</span> ?</h2>
+        <p>
+          Avec plus de 5 ans d'expérience dans la fabrication et l'installation
+          de systèmes d'évacuation d'eau, nous offrons un savoir-faire reconnu
+          et une qualité irréprochable à chaque projet.
+        </p>
+        <ul class="why-list">
+          <li>Matériaux de haute qualité et résistants aux intempéries</li>
+          <li>Équipe expérimentée et certifiée</li>
+          <li>Devis gratuit et intervention rapide</li>
+          <li>Garantie sur tous nos travaux</li>
+          <li>Solutions adaptées à chaque type de toiture</li>
+        </ul>
+      </div>
+      <div class="why-stats">
+        <div class="stat-card">
+          <div class="num">150+</div>
+          <div class="label">Chantiers réalisés</div>
+        </div>
+        <div class="stat-card">
+          <div class="num">5+</div>
+          <div class="label">Années d'expérience</div>
+        </div>
+        <div class="stat-card">
+          <div class="num">98%</div>
+          <div class="label">Clients satisfaits</div>
+        </div>
+        <div class="stat-card">
+          <div class="num">24h</div>
+          <div class="label">Délai de réponse</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════ CTA BANNER ═══════════════════════════ -->
+    <section class="cta-banner" id="contact">
+      <h2>Prêt à protéger votre maison ? Contactez-nous dès aujourd'hui !</h2>
+      <div class="cta-btns">
+        <a href="tel:67222772" class="btn-white">☎ Appeler : 67 222 772</a>
+        <a
+          href="https://wa.me/25767222772"
+          target="_blank"
+          rel="noopener"
+          class="btn-white btn-white-wa"
+          ><svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+            />
+          </svg>
+          WhatsApp</a
+        >
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span
+            style="
+              display: none;
+              font-family: &quot;Barlow Condensed&quot;, sans-serif;
+              font-weight: 800;
+              font-size: 1.4rem;
+              color: #fff;
+            "
+            >IDO <span style="color: var(--orange)">GUTTER</span> FIX</span
+          >
+          <a href="index.html" class="nav-logo">
+            <div
+              style="
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                column-gap: 10px;
+              "
+            >
+              <img
+                src="images/idoGutterFixLogo.png"
+                alt="IDO GUTTER FIX"
+                style="
+                  height: 44px;
+                  width: 44px;
+                  object-fit: cover;
+                  border-radius: 50%;
+                  border: 2px solid var(--orange);
+                "
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'block';
+                "
+              />
+              <span
+                style="
+                  font-family: &quot;Barlow Condensed&quot;, sans-serif;
+                  font-weight: 800;
+                  font-size: 1.4rem;
+                  color: #fff;
+                "
+                >IDO <span style="color: var(--orange)">GUTTER</span> FIX</span
+              >
+            </div>
+          </a>
+          <p>
+            Experts en fabrication, installation et réparation de gouttières sur
+            mesure au Burundi. Qualité, durabilité et professionnalisme.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="realisations.html">Réalisations</a></li>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:67222772">📞 67 222 772</a></li>
+            <li>
+              <a href="https://wa.me/25767222772" target="_blank"
+                >💬 WhatsApp</a
+              >
+            </li>
+            <li><a href="#">📍 Ngozi, Burundi</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2025 IDO GUTTER FIX – Tous droits réservés. Fabrication & Installation
+        de gouttières sur mesure.<br /><span
+          style="
+            margin-top: 8px;
+            display: inline-block;
+            font-size: 0.78rem;
+            color: rgba(255, 255, 255, 0.3);
+          "
+          >DESIGNED AND BUILT BY
+          <a
+            href="https://hppeter830s.github.io/hppetertechstudio/"
+            target="_blank"
+            rel="noopener"
+            style="
+              color: var(--orange);
+              font-weight: 700;
+              letter-spacing: 0.06em;
+              transition: color 0.3s;
+            "
+            onmouseover="this.style.color = '#fff'"
+            onmouseout="this.style.color = 'var(--orange)'"
+            >HP PETER TECH STUDIO</a
+          ></span
+        >
+      </div>
+    </footer>
+
+    <!-- ═══════════════════════════════ JS ════════════════════════════════════ -->
+    <script>
+      /* ── Navbar shadow on scroll ── */
+      const navbar = document.getElementById("navbar");
+      window.addEventListener("scroll", () => {
+        navbar.classList.toggle("scrolled", window.scrollY > 20);
+      });
+
+      /* ── Mobile nav toggle ── */
+      const navToggle = document.getElementById("navToggle");
+      const navMenu = document.getElementById("navMenu");
+      navToggle.addEventListener("click", () =>
+        navMenu.classList.toggle("open"),
+      );
+
+      /* ── Slider ── */
+      const track = document.getElementById("sliderTrack");
+      const dots = document.querySelectorAll(".dot");
+      const total = 3;
+      let cur = 0,
+        timer;
+
+      function goTo(idx) {
+        cur = (idx + total) % total;
+        track.style.transform = `translateX(-${cur * 100}%)`;
+        dots.forEach((d, i) => d.classList.toggle("active", i === cur));
+      }
+
+      function next() {
+        goTo(cur + 1);
+      }
+      function prev() {
+        goTo(cur - 1);
+      }
+
+      document.getElementById("sliderNext").addEventListener("click", () => {
+        next();
+        restart();
+      });
+      document.getElementById("sliderPrev").addEventListener("click", () => {
+        prev();
+        restart();
+      });
+      dots.forEach((d) =>
+        d.addEventListener("click", () => {
+          goTo(+d.dataset.idx);
+          restart();
+        }),
+      );
+
+      function start() {
+        timer = setInterval(next, 4500);
+      }
+      function restart() {
+        clearInterval(timer);
+        start();
+      }
+      start();
+    </script>
+  </body>
+</html>

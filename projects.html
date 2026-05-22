@@ -1,0 +1,777 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tous nos Projets – IDO GUTTER FIX</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/realisations.css" />
+  </head>
+  <body>
+    <!-- ═══════════════════════════════ NAVBAR ═══════════════════════════════ -->
+    <nav id="navbar">
+      <a href="index.html" class="nav-logo" aria-label="IDO GUTTER FIX">
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            column-gap: 10px;
+          "
+        >
+          <img
+            src="images/idoGutterFixLogo.png"
+            alt="IDO GUTTER FIX Logo"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='block';"
+          />
+          <span>IDO <em>GUTTER</em> FIX</span>
+        </div>
+      </a>
+
+      <div class="nav-spacer"></div>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="realisations.html">Réalisations</a></li>
+          <li><a href="index.html#apropos">À propos</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+      <a
+        href="https://wa.me/25767222772"
+        target="_blank"
+        rel="noopener"
+        class="btn-wa nav-wa-desktop"
+        aria-label="WhatsApp"
+      >
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+          />
+        </svg>
+        WhatsApp
+      </a>
+    </nav>
+
+    <!-- ═══════════════════════════════ PAGE HEADER ══════════════════════════ -->
+    <header
+      style="background-image: url(images/idoGutterFixImg19.jpg); background-size: cover; background-position: center;"
+      class="page-header"
+    >
+      <div class="page-header-content">
+        <div class="page-breadcrumb">
+          <a href="index.html">Accueil</a>
+          <span>›</span>
+          <a href="realisations.html">Réalisations</a>
+          <span>›</span> Tous les projets
+        </div>
+        <h1>Tous nos <em>projets</em></h1>
+        <p>
+          L'ensemble de nos réalisations en fabrication, installation et
+          réparation de gouttières. Un savoir-faire reconnu à travers chaque
+          chantier au Burundi.
+        </p>
+      </div>
+    </header>
+
+    <!-- ═══════════════════════════════ GALLERY ══════════════════════════════ -->
+    <section class="gallery-section">
+      <div class="gallery-section-head">
+        <h2>Galerie de <span>nos projets</span></h2>
+        <p>
+          Chaque chantier est réalisé avec soin, précision et les meilleurs
+          matériaux disponibles.
+        </p>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+
+        <!-- Projet 01 -->
+        <div
+          class="gallery-card"
+          data-idx="0"
+          data-cap="Installation de gouttières sur une maison résidentielle à Bujumbura."
+          data-label="Projet 01 – Installation résidentielle"
+        >
+          <img class="card-img" src="images/idoGutterFixImg20.jpg" alt="Projet 1" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 01</div>
+            <p>Installation de gouttières sur une maison résidentielle à Bujumbura.</p>
+          </div>
+        </div>
+
+        <!-- Projet 02 -->
+        <div
+          class="gallery-card"
+          data-idx="1"
+          data-cap="Fabrication sur mesure pour toiture moderne."
+          data-label="Projet 02 – Fabrication sur mesure"
+        >
+          <img class="card-img" src="images/idoGutterFixImg13.jpg" alt="Projet 2" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 02</div>
+            <p>Fabrication sur mesure pour toiture moderne.</p>
+          </div>
+        </div>
+
+        <!-- Projet 03 -->
+        <div
+          class="gallery-card"
+          data-idx="2"
+          data-cap="Réparation complète de système d'évacuation d'eau."
+          data-label="Projet 03 – Réparation complète"
+        >
+          <img class="card-img" src="images/idoGutterFixImg11.jpg" alt="Projet 3" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 03</div>
+            <p>Réparation complète de système d'évacuation d'eau.</p>
+          </div>
+        </div>
+
+        <!-- Projet 04 -->
+        <div
+          class="gallery-card"
+          data-idx="3"
+          data-cap="Pose professionnelle avec finitions propres et durables."
+          data-label="Projet 04 – Pose professionnelle"
+        >
+          <img class="card-img" src="images/idoGutterFixImg9.jpg" alt="Projet 4" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 04</div>
+            <p>Pose professionnelle avec finitions propres et durables.</p>
+          </div>
+        </div>
+
+        <!-- Projet 05 -->
+        <div
+          class="gallery-card"
+          data-idx="4"
+          data-cap="Adaptation de gouttières pour maison à toit incliné."
+          data-label="Projet 05 – Toit incliné"
+        >
+          <img class="card-img" src="images/idoGutterFixImg15.jpg" alt="Projet 5" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 05</div>
+            <p>Adaptation de gouttières pour maison à toit incliné.</p>
+          </div>
+        </div>
+
+        <!-- Projet 06 -->
+        <div
+          class="gallery-card"
+          data-idx="5"
+          data-cap="Intervention rapide pour réparation après dégâts."
+          data-label="Projet 06 – Intervention rapide"
+        >
+          <img class="card-img" src="images/idoGutterFixImg19.jpg" alt="Projet 6" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 06</div>
+            <p>Intervention rapide pour réparation après dégâts.</p>
+          </div>
+        </div>
+
+        <!-- Projet 07 -->
+        <div
+          class="gallery-card"
+          data-idx="6"
+          data-cap="Installation complète sur immeuble commercial à Ngozi."
+          data-label="Projet 07 – Immeuble commercial"
+        >
+          <img class="card-img" src="images/idoGutterFixImg28.jpg" alt="Projet 7" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 07</div>
+            <p>Installation complète sur immeuble commercial à Ngozi.</p>
+          </div>
+        </div>
+
+        <!-- Projet 08 -->
+        <div
+          class="gallery-card"
+          data-idx="7"
+          data-cap="Remplacement de gouttières vétustes par des modèles aluminium."
+          data-label="Projet 08 – Remplacement aluminium"
+        >
+          <img class="card-img" src="images/idoGutterFixImg1.jpg" alt="Projet 8" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 08</div>
+            <p>Remplacement de gouttières vétustes par des modèles aluminium.</p>
+          </div>
+        </div>
+
+        <!-- Projet 09 -->
+        <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg10.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg11.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg12.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg13.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg14.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg15.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg16.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg17.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg18.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg19.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg20.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg2.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg3.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg23.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg4.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg5.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg6.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg27.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg28.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg7.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg8.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+         <div
+          class="gallery-card"
+          data-idx="8"
+          data-cap="Système d'évacuation complet avec descentes et raccords étanches."
+          data-label="Projet 09 – Système complet"
+        >
+          <img class="card-img" src="images/idoGutterFixImg9.jpg" alt="Projet 9" loading="lazy" />
+          <div class="card-zoom">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+          <div class="card-caption">
+            <div class="card-num">Projet 09</div>
+            <p>Système d'évacuation complet avec descentes et raccords étanches.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════ LIGHTBOX ═════════════════════════════ -->
+    <div
+      class="lightbox"
+      id="lightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Agrandissement photo"
+    >
+      <button class="lightbox-close" id="lbClose" aria-label="Fermer">
+        <svg viewBox="0 0 24 24">
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+      <button class="lb-arrow lb-prev" id="lbPrev" aria-label="Précédent">
+        <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6" /></svg>
+      </button>
+      <button class="lb-arrow lb-next" id="lbNext" aria-label="Suivant">
+        <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6" /></svg>
+      </button>
+      <div class="lightbox-inner">
+        <img class="lightbox-img" id="lbImg" src="" alt="" />
+        <div class="lightbox-caption" id="lbCaption">
+          <strong id="lbLabel"></strong>
+          <span id="lbText"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════ CTA STRIP ════════════════════════════ -->
+    <section class="cta-strip">
+      <h2>Un projet en tête ? Contactez-nous pour un devis gratuit !</h2>
+      <div class="cta-btns">
+        <a href="tel:67222772" class="btn-white">☎ Appeler : 67 222 772</a>
+        <a
+          href="https://wa.me/25767222772"
+          target="_blank"
+          rel="noopener"
+          class="btn-white btn-white-wa"
+        >
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <div style="display:flex;flex-direction:row;justify-content:start;align-items:center;column-gap:10px;">
+              <img
+                src="images/idoGutterFixLogo.png"
+                alt="IDO GUTTER FIX"
+                style="height:44px;width:44px;object-fit:cover;border-radius:50%;border:2px solid var(--orange);"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='block';"
+              />
+              <span style="font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.4rem;color:#fff;">
+                IDO <span style="color:var(--orange)">GUTTER</span> FIX
+              </span>
+            </div>
+          </a>
+          <p>
+            Experts en fabrication, installation et réparation de gouttières sur
+            mesure au Burundi. Qualité, durabilité et professionnalisme.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="realisations.html">Réalisations</a></li>
+            <li><a href="index.html#apropos">À propos</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:67222772">📞 67 222 772</a></li>
+            <li><a href="https://wa.me/25767222772" target="_blank">💬 WhatsApp</a></li>
+            <li><a href="#">📍 Ngozi, Burundi</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2025 IDO GUTTER FIX – Tous droits réservés. Fabrication & Installation
+        de gouttières sur mesure.<br />
+        <span style="margin-top:8px;display:inline-block;font-size:0.78rem;color:rgba(255,255,255,0.3);">
+          DESIGNED AND BUILT BY
+          <a
+            href="https://hppeter830s.github.io/hppetertechstudio/"
+            target="_blank"
+            rel="noopener"
+            style="color:var(--orange);font-weight:700;letter-spacing:0.06em;transition:color 0.3s;"
+            onmouseover="this.style.color='#fff'"
+            onmouseout="this.style.color='var(--orange)'"
+          >HP PETER TECH STUDIO</a>
+        </span>
+      </div>
+    </footer>
+
+    <!-- ═══════════════════════════════ JS ════════════════════════════════════ -->
+    <script>
+      /* ── Navbar ── */
+      const navbar = document.getElementById("navbar");
+      window.addEventListener("scroll", () => {
+        navbar.classList.toggle("scrolled", window.scrollY > 20);
+      });
+      const navToggle = document.getElementById("navToggle");
+      const navMenu = document.getElementById("navMenu");
+      navToggle.addEventListener("click", () => navMenu.classList.toggle("open"));
+
+      /* ── Scroll fade-in ── */
+      const cards = document.querySelectorAll(".gallery-card");
+      const io = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e, i) => {
+            if (e.isIntersecting) {
+              setTimeout(() => e.target.classList.add("visible"), i * 80);
+              io.unobserve(e.target);
+            }
+          });
+        },
+        { threshold: 0.12 }
+      );
+      cards.forEach((c) => io.observe(c));
+
+      /* ── Lightbox ── */
+      const lightbox = document.getElementById("lightbox");
+      const lbImg    = document.getElementById("lbImg");
+      const lbLabel  = document.getElementById("lbLabel");
+      const lbText   = document.getElementById("lbText");
+
+      const data = Array.from(cards).map((c) => ({
+        src:   c.querySelector(".card-img").src,
+        cap:   c.dataset.cap,
+        label: c.dataset.label,
+      }));
+
+      let curIdx = 0;
+
+      function openLb(idx) {
+        curIdx = idx;
+        lbImg.src          = data[idx].src;
+        lbImg.alt          = data[idx].label;
+        lbLabel.textContent = data[idx].label;
+        lbText.textContent  = data[idx].cap;
+        lightbox.classList.add("active");
+        document.body.style.overflow = "hidden";
+      }
+      function closeLb() {
+        lightbox.classList.remove("active");
+        document.body.style.overflow = "";
+      }
+      function lbNav(dir) {
+        curIdx = (curIdx + dir + data.length) % data.length;
+        lbImg.src          = data[curIdx].src;
+        lbImg.alt          = data[curIdx].label;
+        lbLabel.textContent = data[curIdx].label;
+        lbText.textContent  = data[curIdx].cap;
+      }
+
+      cards.forEach((c) =>
+        c.addEventListener("click", () => openLb(+c.dataset.idx))
+      );
+      document.getElementById("lbClose").addEventListener("click", closeLb);
+      document.getElementById("lbPrev").addEventListener("click", () => lbNav(-1));
+      document.getElementById("lbNext").addEventListener("click", () => lbNav(1));
+
+      lightbox.addEventListener("click", (e) => {
+        if (e.target === lightbox) closeLb();
+      });
+      document.addEventListener("keydown", (e) => {
+        if (!lightbox.classList.contains("active")) return;
+        if (e.key === "Escape")     closeLb();
+        if (e.key === "ArrowLeft")  lbNav(-1);
+        if (e.key === "ArrowRight") lbNav(1);
+      });
+    </script>
+  </body>
+</html>
